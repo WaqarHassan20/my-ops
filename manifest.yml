@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: nginx
+      image: waqarhasan/shakajs-app:c6153ad6c3d7d80906ff4ddc9755435a17befabd
       ports:
         - containerPort: 80
