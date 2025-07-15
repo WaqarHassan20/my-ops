@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: next-argocd
 spec:
   containers:
-    - name: nginx
+    - name: next-argocd
       image: waqarhasan/shakajs-app:c6153ad6c3d7d80906ff4ddc9755435a17befabd
       ports:
         - containerPort: 80
